@@ -14,4 +14,11 @@ public class Penguin extends Bird{
     public void slide(double distance){
         System.out.println(getName() + " slid " + distance + " miles, majestically!");
     }
+
+    @Override
+    public void migrate(){
+        dance();
+        speak();
+        System.out.println(getName() + " is in the zone. It dances the land at" + getTopSpeed() + " miles per hour.");
+    }
 }
