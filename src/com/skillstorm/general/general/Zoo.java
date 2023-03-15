@@ -1,7 +1,5 @@
 package com.skillstorm.general.general;
-import com.skillstorm.beans.Bird;
-import com.skillstorm.beans.Eagle;
-import com.skillstorm.beans.Ostrich;
+import com.skillstorm.beans.*;
 import com.skillstorm.general.general.Animal;
 
 public class Zoo {
@@ -9,6 +7,10 @@ public class Zoo {
     // a com.skillstorm.general.general.Zoo HAS-A name
     // a com.skillstorm.general.general.Zoo HAS-A address
     public static String masterZoologiest = "Anthony";
+    // usually constants are all caps
+
+    public static final double TICKETPRICE = 75.00;
+
     // any variables within your class, that is not in a method is a property
     public String name; // this is an instance variable (property)
     public String address; // instance variable (property)
@@ -58,6 +60,12 @@ public class Zoo {
         phillyZoo.birdExhibit();
 
 
+
+
+        EmperorPenguin ceasar = new EmperorPenguin();
+        ceasar.setName("Ceasar");
+        ceasar.dance(); // final on methods, does not sot inheritance
+        ceasar.feed(20.5);
     }
 
     public static void buyTickets(int num) {
@@ -69,12 +77,35 @@ public class Zoo {
 
     }
 
-    public void birdExhibit(){
+    public void birdExhibit() {
         Bird larry = new Bird("Larry", "Red", true, true, 88);
 
         larry.feed(20);
         larry.flap(15);
         larry.speak();
+        Penguin micheal = new Penguin("Michael", "White", true, false, 150);
+        micheal.feed(53.2);
+        micheal.flap(32);
+        micheal.slide(20);
+        micheal.dance();
+        micheal.migrate();
+
+        // BaldEagle extends Eagle, which extends Bird,
+        // bald eagle is a bird
+        // it is a grandchild of bird
+
+        BaldEagle baldilocks = new BaldEagle();
+        baldilocks.setName("Baldilocks");
+        baldilocks.setColor("Blonde");
+        baldilocks.setCarnivore(true);
+        baldilocks.setFly(true);
+        baldilocks.setTopSpeed(276);
+        baldilocks.flap(40);
+        baldilocks.feed(24.6);
+        baldilocks.migrate();
+        baldilocks.speak();
+
+        EmperorPenguin ceasar = new EmperorPenguin("Ceasar", "Black", true, false, 282);
 
         // through inheritance I have all the methods of bird.
         // but I didnt have to retype them
@@ -99,6 +130,27 @@ public class Zoo {
         tyrone.speak();
 
 
+
+
+        // covariance
+        // through inheritance I can use a common parent class to generalize my methods.
+
+    }
+
+    private void viewBirds(Bird[] birds){
+        // covariance
+        // through inheritance I can use a common parent class to generalize my methods.
+
+        viewBirds(birds);
+
+        System.out.println("********************  Bird Viewing  **********************");
+        for (int i = 0; i < birds.length; i++) {
+            System.out.println("*********** " + birds[i].getName() + " ***********");
+            birds[i].feed(20);
+            birds[i].flap(15);
+            birds[i].speak();
+            birds[i].migrate();
+        }
     }
 
     // this will house the methods that will be used in the instance of a  com.skillstorm.general.general.Zoo

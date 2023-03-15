@@ -1,7 +1,9 @@
 package com.skillstorm.beans;
 // you inherit from classes with the extends keyword
 // can only extend from ONE CLASS
-public class Ostrich extends Bird {
+
+// --- Cannot inherit from classes that are final
+public final class Ostrich extends Bird {
     public Ostrich(){}
 
     public Ostrich( String name, String color, boolean carnivore, boolean fly, double topspeed){
