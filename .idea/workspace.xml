@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4379d84-0a25-485d-8545-07311454c38f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3Notes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/general/general/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/general/general/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/general/general/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/general2/TemoraryZoom.java" afterDir="false" />
+    <list default="true" id="f4379d84-0a25-485d-8545-07311454c38f" name="Changes" comment="day 2, week 3 notes">
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/Ostrich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/Penguin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/skillstorm/general/general/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skillstorm/general/general/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/skillstorm/general2/TemoraryZoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skillstorm/general2/TemoraryZoom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +51,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,11 +68,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678819770575</updated>
-      <workItem from="1678819771731" duration="6950000" />
+      <workItem from="1678819771731" duration="9636000" />
+      <workItem from="1678886053222" duration="4932000" />
+      <workItem from="1678891187827" duration="2188000" />
     </task>
+    <task id="LOCAL-00001" summary="day 2, week 3 notes">
+      <created>1678826930056</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678826930056</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day 2, week 3 notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 2, week 3 notes" />
   </component>
 </project>
