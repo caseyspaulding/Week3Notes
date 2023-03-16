@@ -73,5 +73,15 @@ public class Bird {
         this.topSpeed = topSpeed;
     }
 
+    @Override
+    public String toString() {
+        return "{" +
+            "I am " + getName() + "'" +
+            ", color='" + getColor() + "'" +
+            ", carnivore='" + isCarnivore() + "'" +
+            ", fly='" + isFly() + "'" +
+            ", topSpeed='" + getTopSpeed() + "'" +
+            "}";
+    }
 
 }

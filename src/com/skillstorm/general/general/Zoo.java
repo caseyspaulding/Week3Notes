@@ -129,9 +129,6 @@ public class Zoo {
         tyrone.flap(16);
         tyrone.speak();
 
-
-
-
         // covariance
         // through inheritance I can use a common parent class to generalize my methods.
 
@@ -146,6 +143,7 @@ public class Zoo {
         System.out.println("********************  Bird Viewing  **********************");
         for (int i = 0; i < birds.length; i++) {
             System.out.println("*********** " + birds[i].getName() + " ***********");
+            System.out.println(birds[i]);
             birds[i].feed(20);
             birds[i].flap(15);
             birds[i].speak();

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4379d84-0a25-485d-8545-07311454c38f" name="Changes" comment="OOP notes 2">
-      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/BaldEagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/EmperorPenguin.java" afterDir="false" />
+    <list default="true" id="f4379d84-0a25-485d-8545-07311454c38f" name="Changes" comment="00P notes day 3">
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/rehash/BetterAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/rehash/BetterBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/rehash/BetterPenguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/rehash/BetterZoo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/skillstorm/beans/Ostrich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/Ostrich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/skillstorm/beans/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/Bird.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/skillstorm/beans/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/Penguin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/skillstorm/general/general/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skillstorm/general/general/Zoo.java" afterDir="false" />
     </list>
@@ -49,7 +51,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,7 +70,8 @@
       <updated>1678819770575</updated>
       <workItem from="1678819771731" duration="9636000" />
       <workItem from="1678886053222" duration="4932000" />
-      <workItem from="1678891187827" duration="7030000" />
+      <workItem from="1678891187827" duration="8821000" />
+      <workItem from="1678971616155" duration="8686000" />
     </task>
     <task id="LOCAL-00001" summary="day 2, week 3 notes">
       <created>1678826930056</created>
@@ -91,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678893590676</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="00P notes day 3">
+      <created>1678901658807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678901658807</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +111,7 @@
     <MESSAGE value="day 2, week 3 notes" />
     <MESSAGE value="OOP notes" />
     <MESSAGE value="OOP notes 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP notes 2" />
+    <MESSAGE value="00P notes day 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="00P notes day 3" />
   </component>
 </project>

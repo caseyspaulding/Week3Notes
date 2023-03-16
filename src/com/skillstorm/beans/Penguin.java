@@ -11,6 +11,10 @@ public class Penguin extends Bird{
         System.out.println(getName() + " has happy feet!");
     }
 
+    @Override
+    public String toString(){
+        return "I am " + getName() + super.toString();
+    }
     public void slide(double distance){
         System.out.println(getName() + " slid " + distance + " miles, majestically!");
     }
