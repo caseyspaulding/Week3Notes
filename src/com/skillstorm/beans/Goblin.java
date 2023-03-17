@@ -13,7 +13,6 @@ public class Goblin implements Shark {
         this.howScary = howScary;
         this.speed = speed;
     }
-
     public String getName() {
         return this.name;
     }
@@ -38,8 +37,6 @@ public class Goblin implements Shark {
     public void setSpeed(double speed) {
         this.speed = speed;
     }
-
-
 
     @Override
     public void swim(double distance) {
