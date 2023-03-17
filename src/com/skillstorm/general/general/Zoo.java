@@ -129,24 +129,19 @@ public class Zoo {
         // covariance
         // through inheritance I can use a common parent class to generalize my methods.
 
+
+    }
+    public void sharkExhibit() {
+        // cannot create an instance of an abstract class  or interface directly
+        // interfaces are abstract. they are a contract that a class must follow.
+        // you need something that implements the interface.
+        // HammerHead implements the Shark interface so it will work.
+
+        Shark mark = new HammerHead("Mark", 65,700,20, 35);
+
     }
 
-    private void viewBirds(Bird[] birds){
-        // covariance
-        // through inheritance I can use a common parent class to generalize my methods.
 
-        viewBirds(birds);
-
-        System.out.println("********************  Bird Viewing  **********************");
-        for (int i = 0; i < birds.length; i++) {
-            System.out.println("*********** " + birds[i].getName() + " ***********");
-            System.out.println(birds[i]);
-            birds[i].feed(20);
-            birds[i].flap(15);
-            birds[i].speak();
-            birds[i].migrate();
-        }
-    }
 
     // this will house the methods that will be used in the instance of a  com.skillstorm.general.general.Zoo
     public void sellPopcorn() {

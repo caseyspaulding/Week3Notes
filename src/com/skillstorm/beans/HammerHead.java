@@ -56,7 +56,7 @@ public class HammerHead implements Shark{
 
     @Override
     public void bite() {
-        System.out.println(name + " bit with the strength of " + biteForce + " lbs of force."")
+        System.out.println(name + " bit with the strength of " + biteForce + " lbs of force.");
 
     }
 
