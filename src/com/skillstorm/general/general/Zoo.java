@@ -59,9 +59,6 @@ public class Zoo {
         myAnimal.setFur(true);
         phillyZoo.birdExhibit();
 
-
-
-
         EmperorPenguin ceasar = new EmperorPenguin();
         ceasar.setName("Ceasar");
         ceasar.dance(); // final on methods, does not sot inheritance

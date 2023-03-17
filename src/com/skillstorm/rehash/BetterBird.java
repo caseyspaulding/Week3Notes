@@ -1,6 +1,10 @@
 package com.skillstorm.rehash;
 
 public class BetterBird extends BetterAnimal {
+
+    // static variables are shared across all instances of the class
+    // they are all looking at the same object
+    private static int birdCount = 0;
     private double topSpeed;
     private double wingspan;
 
@@ -11,6 +15,7 @@ public class BetterBird extends BetterAnimal {
 
         setFur(fur);
         setWeight(weight);
+        birdCount++; // every time this constructor is called we increment the birdCount
     }
 
     public void speak(){
@@ -49,6 +54,10 @@ public class BetterBird extends BetterAnimal {
     @Override
     public String toString() {
         return "I am" + getName() + " and I am a bird. I have a wingspan of " + wingspan + " feet and I can fly at a top speed of " + topSpeed + " miles per hour." ;
+    }
+
+    public int getBirdCount(){
+        return birdCount;
     }
 
 
