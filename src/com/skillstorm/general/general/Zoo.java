@@ -129,15 +129,46 @@ public class Zoo {
         // covariance
         // through inheritance I can use a common parent class to generalize my methods.
 
-
+        sharkExhibit();
     }
     public void sharkExhibit() {
         // cannot create an instance of an abstract class  or interface directly
         // interfaces are abstract. they are a contract that a class must follow.
         // you need something that implements the interface.
         // HammerHead implements the Shark interface so it will work.
-
+        System.out.println("********* MARK THE SHARK ***********");
         Shark mark = new HammerHead("Mark", 65,700,20, 35);
+        mark.bite();
+        mark.swim(20);
+        mark.hunt();
+
+        // I do not have access to HammerHead specific things because
+        // mark is a type Shark, not a type HammerHead in Java
+        // it only gives you access to what it can guarantee exists.
+        // it can only guarantee that a Shark has a bite method, swim method, and hunt method.
+
+        HammerHead actualMark = (HammerHead)mark;
+
+        actualMark.setName("True Mark");
+        System.out.println(actualMark.getBiteForce());
+
+        actualMark.bite();
+        actualMark.swim(20);
+
+        Shark eddy = new Goblin ( "Eddy", 12, 10, 45);
+        eddy.bite();
+        eddy.swim(20);
+        eddy.hunt();
+
+        Goblin actualEddy = (Goblin)eddy;
+        actualEddy.setName("True Eddy");
+
+
+
+
+
+        // this is a call to the method in the HammerHead class
+
 
     }
 
