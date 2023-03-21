@@ -1,6 +1,6 @@
 package com.skillstorm.beans;
 
-public class BlackTip implements Shark {
+public class BlackTip implements Shark, Fish {
 
     private String name;
     private double length;
@@ -13,6 +13,7 @@ public class BlackTip implements Shark {
         this.speed = speed;
         this.humanAttacks = humanAttacks;
     }
+
 
     public int getHumanAttacks() {
         return this.humanAttacks;
@@ -50,14 +51,25 @@ public class BlackTip implements Shark {
     @Override
     public void bite() {
         System.out.println(name + " finds a human! and bites with" + (length * humanAttacks) + " lbs of force.");
+        this.humanAttacks++;
     }
 
     @Override
     public void hunt() {
-        swim(length * speed);
+        swim(length * humanAttacks + speed);
         bite();
         System.out.println(name + " swims off into the deep at " + speed + " mpg. Satisfied..");
+
     }
 
 
+    @Override
+    public void bubbles() {
+
+    }
+
+    @Override
+    public void view() {
+
+    }
 }

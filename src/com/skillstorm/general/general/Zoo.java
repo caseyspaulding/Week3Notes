@@ -162,14 +162,35 @@ public class Zoo {
 
         Goblin actualEddy = (Goblin)eddy;
         actualEddy.setName("True Eddy");
+        System.out.println("************ Jimbo *************");
+        Shark jimbo = new BlackTip("Jimbo", 5,63, 17);
+        jimbo.bite();
+        jimbo.swim(75);
+        jimbo.hunt();
 
+        BlackTip actualJimbo = (BlackTip)jimbo;
+        actualJimbo.setName("True Jimbo");
+        actualJimbo.bite();
+        actualJimbo.swim(75);
+        actualJimbo.hunt();
 
+        Shark[] sharkList = new Shark[3];
+        // I do not need a cast to go from a child class to a parent class
+        // I do need a cast to go from a parent class to a child class
+        sharkList[0] = actualMark;
+        sharkList[1] = actualEddy;
+        sharkList[2] = actualJimbo;
 
+        sharkBait(sharkList);
 
+    }
+    private void sharkBait(Shark[] sharks) {
+        for (int i = 0; i < sharks.length; i++) {
+            sharks[i].swim(320);
+            sharks[i].hunt();
+            System.out.println("There's a shark in the water!");
 
-        // this is a call to the method in the HammerHead class
-
-
+        }
     }
 
 

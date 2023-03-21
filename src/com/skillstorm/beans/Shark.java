@@ -6,6 +6,8 @@ package com.skillstorm.beans;
 // everything in an interface is public and abstract
 
 public interface Shark {
+    // any variable in an interface is public static final
+    String myName = "Miles";
 
     // these methods are abstract
     // they do not have a body

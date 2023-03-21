@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4379d84-0a25-485d-8545-07311454c38f" name="Changes" comment="Inheritance day 4">
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/GrandTouring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/skillstorm/beans/BlackTip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/BlackTip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/skillstorm/beans/Shark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/Shark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/skillstorm/general/general/Shark" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/skillstorm/general/general/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skillstorm/general/general/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +74,8 @@
       <workItem from="1678886053222" duration="4932000" />
       <workItem from="1678891187827" duration="8821000" />
       <workItem from="1678971616155" duration="11794000" />
-      <workItem from="1679058411829" duration="9652000" />
+      <workItem from="1679058411829" duration="13349000" />
+      <workItem from="1679403930992" duration="4382000" />
     </task>
     <task id="LOCAL-00001" summary="day 2, week 3 notes">
       <created>1678826930056</created>
@@ -126,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679065249472</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Inheritance day 4">
+      <created>1679074314323</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679074314323</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
