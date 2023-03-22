@@ -8,7 +8,7 @@ public abstract class Motorcycle extends Vehicle {
 
     private String brand;
     private boolean trike;
-    private String getModel;
+    private String Model;
 
     public void setBrand(String brand) {
         this.brand = brand;
@@ -22,15 +22,16 @@ public abstract class Motorcycle extends Vehicle {
     public boolean getTrike() {
         return this.trike;
     }
-    public void setModel(String getModel) {
-        this.getModel = getModel;
+    public void setModel(String Model) {
+        this.Model = Model;
     }
     public String getModel() {
-        return this.getModel;
+        return this.Model;
     }
 
 
-    public Motorcycle(String color, int topSpeed, String size, boolean trike) {
+
+    public Motorcycle(String brand, String color, int topSpeed, String size, boolean trike) {
         setColor(color);
         setTopSpeed(topSpeed);
         setSize(size);
