@@ -74,13 +74,22 @@ public class WeekFour {
             int[] nums = {1, 2, 3};
             // nums[5] = 5; // this is a runtime error // -- ArrayIndexOutOfBoundsException
 
-            Sport bike = null;
+            //Sport bike = null;
             // bike.getMake(); // this is a runtime error // -- NullPointerException
 
             // the above 3 exceptions are part of the java.lang package --------////
             // the above are all unchecked exceptions, they are not checked at compile time.
             // the above are all examples of runtime exceptions
             // runtime ex
+
+
+
+        }
+
+        public static void failGracefully(){
+            // when running your code you want to fail gracefully
+            int var = 0;
+            int result = 5 / var; // this is a runtime error // -- ArithmeticException
 
         }
 }

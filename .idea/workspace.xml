@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4379d84-0a25-485d-8545-07311454c38f" name="Changes" comment="Inheritance day 4">
-      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/general/general/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/general/general/WeekFour.java" afterDir="false" />
+    <list default="true" id="f4379d84-0a25-485d-8545-07311454c38f" name="Changes" comment="Week 3 Notes Exceptions and Random class">
+      <change afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/TryCatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/skillstorm/beans/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skillstorm/beans/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/skillstorm/general/general/WeekFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skillstorm/general/general/WeekFour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Casey/IdeaProjects/Week3Notes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,7 +71,9 @@
       <workItem from="1678971616155" duration="11794000" />
       <workItem from="1679058411829" duration="13349000" />
       <workItem from="1679403930992" duration="5021000" />
-      <workItem from="1679490313616" duration="7077000" />
+      <workItem from="1679490313616" duration="7524000" />
+      <workItem from="1679576950806" duration="33000" />
+      <workItem from="1679663624962" duration="4329000" />
     </task>
     <task id="LOCAL-00001" summary="day 2, week 3 notes">
       <created>1678826930056</created>
@@ -143,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679429372701</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Week 3 Notes Exceptions and Random class">
+      <created>1679508101822</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679508101822</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +164,7 @@
     <MESSAGE value="OOP notes 2" />
     <MESSAGE value="00P notes day 3" />
     <MESSAGE value="Inheritance day 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance day 4" />
+    <MESSAGE value="Week 3 Notes Exceptions and Random class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 3 Notes Exceptions and Random class" />
   </component>
 </project>
